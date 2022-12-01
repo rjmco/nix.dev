@@ -1,5 +1,11 @@
 # Maintainer responsibilities
 
+## Join team meetings
+
+Participate in the regular team meetings, see [meeting information and protocol](./README.md#team-meetings) for details.
+
+If you can't participate, notify other team members.
+
 ## Monitor notifications
 
 Watch discussions and proposals from these communication channels:
@@ -11,34 +17,23 @@ Watch discussions and proposals from these communication channels:
 Maintain your entry in the [`CODEOWNERS`](https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners) file in the respective repository.
 GitHub will then request reviews for pull requests that change files you own.
 
-
 Set the notification level on the [Development > Documentation](https://discourse.nixos.org/c/dev/documentation/25) Discourse category to "watching".
 
-Join the [Nix* Documentation](https://matrix.to/#/#docs:nixos.org) Matrix room and enable relevant notifications.
+Join the [Nix\* Documentation](https://matrix.to/#/#docs:nixos.org) Matrix room and enable relevant notifications.
 
-As a maintainer, you have the responsibility to be responsive to `@` mentions
-on GitHub, Discourse, and Matrix. If said mention is low on your priority list,
-you can respond by saying that.
-
-Finally, you should also make sure to subscribe to external resources that
-falls into your area. For example, if you are a maintainer of the documentation
-team, you need to be aware of the stabilisation status of Nix features. If you
-are a maintainer of the security team, you need to be subscribed to CVE
-publications.
+Respond to `@` mentions on GitHub, Discourse, and Matrix within reasonable time, even if you cannot deal with the issue due to time constraints or other priorities.
 
 ## Provide guidance
 
-As a maintainer, you will have to guide potential contributors.
+Guide potential contributors, by:
 
-This can be done by taking questions from the Discourse forum, and encouraging
-the poster to write issues on GitHub, if needed, and then guide them to write
-Pull Requests.
+- taking questions on the Discourse Help category
+- encouraging question authors to raise issues on GitHub if needed
+- guiding them to make pull requests to solve their problems
 
-In any case, make sure to reserve time for doing Pull Request reviews, and to
-only pick subjects that fall withing files that are in your `CODEOWNERS` entry.
+Make sure to reserve time for reviewing pull requests that fall within your area of interest or expertise.
 
 ## Take ownership of issues, pull requests, and source code
 
-As a maintainer, you are responsible for the code you approve and merge: it is
-also your responsibility to follow-up on bugs and regressions caused by this
-code.
+As a maintainer, you are responsible for the code you approve and merge.
+It is your responsibility to follow-up on bugs and regressions caused by this code.
